@@ -8,7 +8,11 @@
         editor = nvim
 [pull]
         ff = only
+[init]
+        defaultBranch = main
 [diff]
         external = difft
 [alias]
         hardupdate = !git fetch && git reset --hard \"origin/$(git rev-parse --abbrev-ref HEAD)\"
+        fpush = push --force-with-lease
+        resq = rebase --autosquash -i
