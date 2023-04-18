@@ -10,3 +10,5 @@
         ff = only
 [diff]
         external = difft
+[alias]
+        hardupdate = !git fetch && git reset --hard \"origin/$(git rev-parse --abbrev-ref HEAD)\"
