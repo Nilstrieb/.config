@@ -6,6 +6,7 @@
 [core]
         autocrlf = false
         editor = nvim
+        excludesFile = ~/.gitexclude
 [pull]
         ff = only
 [init]
