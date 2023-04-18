@@ -1,0 +1,12 @@
+[user]
+        email = 48135649+Nilstrieb@users.noreply.github.com
+        name = nils
+[commit]
+        gpgsign = false
+[core]
+        autocrlf = false
+        editor = nvim
+[pull]
+        ff = only
+[diff]
+        external = difft
